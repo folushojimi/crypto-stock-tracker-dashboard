@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {
+
+      gridTemplateColumns: {
+        'custom': '0.5fr 2fr 1fr 1fr  1.5fr', // Custom grid template
+      },
+
       fontFamily: {
         outfit: ['Outfit']
       }
