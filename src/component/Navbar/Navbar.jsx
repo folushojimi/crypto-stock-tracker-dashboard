@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import { CoinContext } from '../../context/CoinContext'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -32,9 +33,10 @@ switch (event.target.value){
 
   return (
     <div className='flex justify-between items-center border-b-[1px] border-solid border-white px-20 font-outfit'>
-        <img className='h-20' src="/images/logo.png" alt="logo" />
+        <Link to={'/'}><img className='h-20' src="/images/logo.png" alt="logo" />
+        </Link>
         <ul className='flex items-center gap-4'>
-            <li>Home</li>
+            <Link to={'/'}>Home</Link>
             <li>Features</li>
             <li>Pricing</li>
             <li>Blog</li>
