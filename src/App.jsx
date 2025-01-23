@@ -8,7 +8,7 @@ const App =()=> {
   return (
 <BrowserRouter>
  
-       <div className="text-white h-screen bg-gradient-to-r from-[#0b004e] via-[#1d152f] to-[#002834]">
+       <div className="text-white win-h-screen bg-gradient-to-r from-[#0b004e] via-[#1d152f] to-[#002834]">
         <Navbar/>
 
 <Routes>
