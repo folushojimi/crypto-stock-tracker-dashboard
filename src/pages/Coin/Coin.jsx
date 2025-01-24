@@ -12,7 +12,7 @@ const {currency}=useContext(CoinContext)
 const fetchHistoricalData = async ()=>{
   const options = {method: 'GET', headers: {accept: 'application/json'}};
 
-fetch(`https://api.coingecko.com/api/v3/coins/${coinId}/bitcoin/market_chart?vs_currency=${currency.name}&days=10`, options)
+fetch(`https://api.coingecko.com/api/v3/coins/${coinId}/market_chart?vs_currency=${currency.name}&days=10`, options)
   .then(res => res.json())
   .then(res => setHistoricalData(res))
   .catch(err => console.error(err));
