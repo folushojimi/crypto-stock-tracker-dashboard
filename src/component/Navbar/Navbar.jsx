@@ -50,8 +50,7 @@ switch (event.target.value){
                 <option value="ngn" className='bg-[#09005c]'>NGN</option>
             </select>
 
-            <button className='bg-white text-black text-center flex items-center justify-center gap-2 px-6 py-1 rounded-full'>Sign up <img className='h-3' src="/images/blackarrow.png" alt="arrow" /></button>
-        </div>
+         </div>
     </div>
   )
 }

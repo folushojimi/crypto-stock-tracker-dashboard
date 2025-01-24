@@ -30,10 +30,9 @@ useEffect(()=>{
     <div className='flex flex-col justify-center items-center gap-5 mt-14'>
 {/* hero section */}
 <div className='text-center w-[600px] font-outfit'>
-<h1 className='font-bold text-5xl mb-7'>Largest <br /> Crypto Marketplace</h1>
+<h1 className='font-bold text-5xl mb-7'>Gateway to Stock & Crypto Market Data</h1>
 <p className='text-sm mx-28'>
-  Welcome to the world's largest cryptocurrency
-  marketplace. Sign up to explore more about cryptos.</p>
+Your Smart Tool for Real-Time Stocks & Crypto Data, Trends, and Insights.</p>
 </div>
 
 {/* The search form */}

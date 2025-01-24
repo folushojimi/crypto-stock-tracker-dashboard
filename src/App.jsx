@@ -4,6 +4,7 @@ import Coin from "./pages/Coin/Coin"
 import Footer from "./component/Footer"
 import Stock from "./pages/Stocks/Stock"
 import {Routes,Route } from "react-router-dom"
+import StocksMain from "./pages/Stocks/StocksMain"
 
 
 const App =()=> {
@@ -15,6 +16,7 @@ const App =()=> {
 <Routes>
   <Route path="/" element={<Home/>}/>
   <Route path="/coin/:coinId" element={<Coin/>}/>
+  <Route path="/stockhome" element={<StocksMain/>}/>
   <Route path="/stock/stockId" element={<Stock/>}/>
 </Routes>
 <Footer/>
