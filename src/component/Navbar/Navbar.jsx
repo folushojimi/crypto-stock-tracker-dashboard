@@ -32,7 +32,7 @@ switch (event.target.value){
 }
 
   return (
-    <div className='flex  md:justify-between  items-center border-b-[1px] border-solid border-white md:px-20 font-outfit bg-emerald-500 md:bg-red-600'>
+    <div className='flex  md:justify-between  items-center border-b-[1px] border-solid border-white md:px-20 font-outfit'>
         <Link to={'/'}><img className='h-20' src="/images/logo.png" alt="logo" />
         </Link>
         <ul className='flex items-center gap-4 mr-4'>

@@ -11,7 +11,7 @@ const App =()=> {
 
   return (
 
-   <div className="text-white  min-h-screen bg-cover bg-center bg-gradient-to-r from-[#0b004e] via-[#1d152f] to-[#002834] overflow-x-hidden">
+   <div className="text-white  min-h-screen bg-cover bg-center bg-gradient-to-r from-[#003c5b] via-[#006f8e] to-[#0099b8] overflow-x-hidden">
  <Navbar/>
 <Routes>
   <Route path="/" element={<Home/>}/>
